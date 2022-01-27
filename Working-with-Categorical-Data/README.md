@@ -1,47 +1,43 @@
-# Joining Data with Pandas
+# Working-with-Categorical Data
 
-### 1_Inner-Joins
+## Visualizations-with-Categorical-Data
 
-- what an inner join with pandas is
-- one-to-one relationship
-- one-to-many relationship
-- multiple inner joins
+### 1_Seaborn-with-Cat-Data
+    - catplot function
+    - setting style
+    - understanding categorical column values
+    - box plot
+    - bar plot
+    - point plot
+    - count plot
 
-### 2_Outer-Joins
+### 1_Introduction-to-Categorical-Data
 
-- what a left and right join are
-- what a full outer join is
+- Categorical vs. Numerical data
+- 2 Types of Categorical Data
+- creating a categorical series
+- re-ordering a categorical variable to a nominal variable
 
-### 3_Self-Joins
+### 2_Grouping-Data-by-Categories
 
-- good use of self-joins
-- inner self-join
-- left self-join
+- .groupby()
 
-### 4_Merging-on-Indexes
+### 3_Setting-Categorical-Variables
 
-- merging on index
-- mergin on multi-indexes
+- setting a column to categorical category
+- adding new categories
+- checking for categories
+- removing categories
 
-### 5_Semi-Joins
+### 4_Updating-Categories
 
-- filtering joins
-- semi-joins
-- anti-join
+- making a dictionary to rename categories
+- replacing values using .replace()
 
-### 6_Vertical-Concatenation
+### 5_Cleaning-and-Accessing-Categorical-Data
 
-- uses of vertical concatenation
-- concatenate
-- append
+### 6_Encoding-Categorical-Data
 
-### 7_Checking-Integrity-of-Merges
-
-- possible merging issues
-- validate argument in .merge()
-
-### 8_Other-Merging-Methods
-
-- .merge_ordered()
-- .merge_asof()
+- label encoding
+- one-hot encoding
 

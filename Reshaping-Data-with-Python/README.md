@@ -1,47 +1,36 @@
-# Joining Data with Pandas
+# Reshaping Data with Python
 
-### 1_Inner-Joins
+### 1_Long-and-Wide-Formats
 
-- what an inner join with pandas is
-- one-to-one relationship
-- one-to-many relationship
-- multiple inner joins
+- long vs. wide format
+- transposing dataframes
+- cases where we might need to go from long to wide
 
-### 2_Outer-Joins
+### 2_Reshaping-with-Pivots-and-PivotTables
 
-- what a left and right join are
-- what a full outer join is
+- Long to wide reshaping
+- .pivot()
+- extending the pivot function
+- pivot limitations
+- pivot_table() arguments
+- .groupby() versus .pivot_table()
+- the axis argument
+- when to use .pivot() vs. .pivot_tables()
 
-### 3_Self-Joins
+### 3_Reshaping-with-Melt
 
-- good use of self-joins
-- inner self-join
-- left self-join
+- wide-to-long transformation
+- arguments for .melt()
 
-### 4_Merging-on-Indexes
+### 4_Wide-to-Long-Function
 
-- merging on index
-- mergin on multi-indexes
+- the arguments
+- keeping original index
 
-### 5_Semi-Joins
+### 5_Stacking-and-Unstacking-DataFrames
 
-- filtering joins
-- semi-joins
-- anti-join
-
-### 6_Vertical-Concatenation
-
-- uses of vertical concatenation
-- concatenate
-- append
-
-### 7_Checking-Integrity-of-Merges
-
-- possible merging issues
-- validate argument in .merge()
-
-### 8_Other-Merging-Methods
-
-- .merge_ordered()
-- .merge_asof()
-
+- multi-level index from an array
+- on rows and on columns
+- .stack() method
+- unstacking by .unstack()
+- rearranging level by combining stack and unstack
