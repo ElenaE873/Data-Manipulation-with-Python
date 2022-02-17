@@ -1,6 +1,7 @@
 # Working-with-Categorical Data
 
 ## Visualizations-with-Categorical-Data
+- 1_Seaborn-with-Cat-Data
 
 ### 1_Seaborn-with-Cat-Data
     - catplot function
